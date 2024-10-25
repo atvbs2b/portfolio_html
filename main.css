@@ -8,6 +8,8 @@ html {
   }
   
   body {
+    color: var(--theme-color-1);
+    color: var(--theme-color-2);
     color: var(--main-foreground);
     line-height: 1.5;
     word-wrap: break-word;
