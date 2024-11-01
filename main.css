@@ -55,7 +55,6 @@ html {
     &::before {
       content: '';
       position: fixed;
-      top:600px;
       left:50%;
       bottom:0px;
       transform:translateX(-50%);
