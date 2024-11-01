@@ -119,13 +119,3 @@ html {
     text-indent: 0.5em;
   }
   
-  ul li::before {
-    position: absolute;
-    left: 0.5em;
-    top: 0.4em;
-    font-size: 75%;
-    font-family: "Font Awesome 6 Free";
-    font-weight: bold;
-    content: "\f816";
-  }
-  
