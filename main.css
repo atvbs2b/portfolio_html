@@ -52,6 +52,11 @@ html {
     padding: 0 0 0 1.5em;
   }
 
+  .timeline > li {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+  }
   .timeline-date {
     width: 90px; /* 幅を調整 */
     float: left;
