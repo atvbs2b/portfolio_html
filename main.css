@@ -52,6 +52,42 @@ html {
     padding: 0 0 0 1.5em;
   }
 
+  .timeline {
+    list-style: none;
+  }
+  .timeline > li {
+    margin-bottom: 60px;
+  }
+  
+  /* for Desktop */
+  @media ( min-width : 640px ){
+    .timeline > li {
+      overflow: hidden;
+      margin: 0;
+      position: relative;
+    }
+    .timeline-date {
+      width: 110px;
+      float: left;
+      margin-top: 20px;
+    }
+    .timeline-content {
+      width: 75%;
+      float: left;
+      border-left: 3px #F0ECE5 solid;
+      padding-left: 30px;
+    }
+    .timeline-content:before {
+      content: '';
+      width: 12px;
+      height: 12px;
+      background: #edda77;
+      position: absolute;
+      left: 106px;
+      top: 24px;
+      border-radius: 100%;
+    }
+  }
   .timeline > li {
     overflow: hidden;
     margin: 0;
