@@ -35,24 +35,15 @@ html {
     border: dashed 2px white;
   }
   
-  h1::after {
-    position: absolute;
-    content: "";
-    left: -7.5px;
-    top: -7.5px;
-    border-width: 0 0 1em 1em;
-    border-style: solid;
-    border-color: #fff #fff var(--theme-color-2);
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  }
+
   
   h2 {
     position: relative;
+    text-align: center;:
     font-size: 200%;
     letter-spacing: 0.05em;
     font-weight: normal;
     padding: 0 0 0 1.5em;
-    border-bottom: 3px solid var(--theme-color-2);
   }
   
   h2::before {
