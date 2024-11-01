@@ -46,7 +46,7 @@ html {
     font-style: normal;
     position: relative;
     text-align: center;:
-    font-size: 200%;
+    font-size: 400%;
     letter-spacing: 0.05em;
     font-weight: normal;
     padding: 0 0 0 1.5em;
@@ -88,7 +88,7 @@ html {
             width:8px;
             height:8px;
             border:4px solid #ffffff;
-            background-color:#1D1D1D;
+            background-color:#F5EBC5;
             border-radius:100%;
             top:50%;
             transform:translateY(-50%);
