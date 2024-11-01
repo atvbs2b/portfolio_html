@@ -54,7 +54,7 @@ html {
 
     &:before {
       content: '';
-      position: sticky;
+      position: fixed;
       top:300px;
       left:50%;
       bottom:0px;
