@@ -55,7 +55,7 @@ html {
     &:before {
       content: '';
       position: fixed;
-      top:0px;
+      top:200px;
       left:50%;
       bottom:0px;
       transform:translateX(-50%);
@@ -121,7 +121,6 @@ html {
         }
       }
     }
-  }
 
 
   
