@@ -52,69 +52,81 @@ html {
     padding: 0 0 0 1.5em;
   }
 
-  .timeline {
-    list-style: none;
-  }
-  .timeline > li {
-    margin-bottom: 60px;
-  }
-  
-  /* for Desktop */
-  @media ( min-width : 640px ){
-    .timeline > li {
-      overflow: hidden;
-      margin: 0;
-      position: relative;
-    }
-    .timeline-date {
-      width: 110px;
-      float: left;
-      margin-top: 20px;
-    }
-    .timeline-content {
-      width: 75%;
-      float: left;
-      border-left: 3px #F0ECE5 solid;
-      padding-left: 30px;
-    }
-    .timeline-content:before {
+  body {
+    background-color:#1D1D1D;
+    min-height:100vh;
+    margin:0;
+    font-family: 'Droid Sans', sans-serif;
+    &:before {
       content: '';
-      width: 12px;
-      height: 12px;
-      background: #edda77;
-      position: absolute;
-      left: 106px;
-      top: 24px;
-      border-radius: 100%;
+      position: fixed;
+      top:0px;
+      left:50%;
+      bottom:0px;
+      transform:translateX(-50%);
+      width:4px;
+      background-color:#fff;
+    }
+    .entries {
+      width:calc(100% - 80px);
+      max-width:800px;
+      margin:auto;
+      position: relative;
+      left:-5px;
+      .entry {
+        width:calc(50% - 80px);
+        float:left; 
+        padding:20px;
+        clear:both;
+        text-align:right;
+        &:not(:first-child) {
+          margin-top:-60px;
+        }
+        .title {
+          font-size:32px;
+          margin-bottom:12px;
+          position: relative;
+          color:#fff;
+          &:before {
+            content: '';
+            position: absolute;
+            width:8px;
+            height:8px;
+            border:4px solid #ffffff;
+            background-color:#1D1D1D;
+            border-radius:100%;
+            top:50%;
+            transform:translateY(-50%);
+            right:-73px;
+            z-index:1000;
+          }
+          &.big:before {
+            width:24px;
+            height:24px;
+            transform:translate(8px,-50%);
+          }
+        }
+        .body {
+          color:#aaa;
+          p {
+            line-height:1.4em;
+          }
+        }
+        &:nth-child(2n) {
+          text-align:left;
+          float:right;
+          .title {
+            &:before {
+              left:-63px;
+            }
+            &.big:before {
+              transform:translate(-8px,-50%);
+            }
+          }
+        }
+      }
     }
   }
-  .timeline > li {
-    overflow: hidden;
-    margin: 0;
-    position: relative;
-  }
-  .timeline-date {
-    width: 90px; /* 幅を調整 */
-    float: left;
-    margin-top: 10px; /* マージンを調整 */
-  }
-  .timeline-content {
-    width: calc(100% - 90px); /* 日付後の幅に合わせて調整 */
-    float: left;
-    border-left: 3px #F0ECE5 solid;
-    padding-left: 20px; /* パディングを調整 */
-  }
-  .timeline-content:before {
-    content: '';
-    width: 12px;
-    height: 12px;
-    background: #edda77;
-    position: absolute;
-    left: 86px; /* 日付と揃えるために位置を調整 */
-    top: 14px; /* 垂直方向に合わせるために位置を調整 */
-    border-radius: 100%;
-  }
-}
 
 
   
