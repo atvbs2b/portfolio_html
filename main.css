@@ -171,9 +171,18 @@ ul li {
   justify-content: center; /* 中央寄せ */
 }
 
+
+
 .skill {
-  margin: 10px 20px; /* 各アイコン間のマージン */
-  text-align: center;
+  flex: 1 1 200px; /* 子要素の成長、縮小、基準幅 */
+  margin: 20px; /* マージン */
+  border: 1px solid #ccc; /* ボーダー */
+  border-radius: 8px; /* 角丸 */
+  padding: 15px; /* 内側の余白 */
+  background-color: #fff; /* 各スキルの背景色 */
+  text-align: center; /* テキストを中央揃え */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 影の効果 */
+  transition: transform 0.3s; /* ホバー時のアニメーション */
 }
 
 .skill i {
@@ -194,4 +203,7 @@ ul li {
 }
 
 .stars {
-  color: #546578; /*
+  font-size: 1.2em; /* 星のサイズ */
+    color: #546578; /* 星の色 */
+    margin: 5px 0; /* 星と説明文のマージン */
+}
