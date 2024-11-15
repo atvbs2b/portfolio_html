@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <title>Saki's portfolio</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=yes"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>かわいいポートフォリオ</title>
+</head>
+<body>
+    <header>
+        <h1>私のポートフォリオ</h1>
+        <p>かわいいデザインとコーディングであなたを魅了します！</p>
+    </header>
 
-  <body>
-    <!-- ここから本文開始 -->
+    <main>
+        <section class="projects">
+            <h2>プロジェクト</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="プロジェクト1">
+                <h3>プロジェクトタイトル1</h3>
+                <p>このプロジェクトの説明がここに入ります。</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="プロジェクト2">
+                <h3>プロジェクトタイトル2</h3>
+                <p>このプロジェクトの説明がここに入ります。</p>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="プロジェクト3">
+                <h3>プロジェクトタイトル3</h3>
+                <p>このプロジェクトの説明がここに入ります。</p>
+            </div>
+        </section>
 
-    <h1>Sakiko's portfolio</h1>
+        <section class="contact">
+            <h2>お問い合わせ</h2>
+            <p>お気軽にご連絡ください！</p>
+            <form>
+                <input type="text" placeholder="お名前" required>
+                <input type="email" placeholder="メールアドレス" required>
+                <textarea placeholder="メッセージ" required></textarea>
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
 
-    <h2>さきこ</h2>
-    <p>
-      大阪公立大学工業高等専門学校在学<br />
-      知能情報コース２年<br />
-      現代音楽部 副部長<br />
-    </p>
-
-    <h2>skill</h2>
-    <p>
-      大阪公立大学工業高等専門学校在学<br />
-      知能情報コース２年<br />
-      現代音楽部 副部長<br />
-
-
-
-  </body>
-  <!-- ここまで本文終了 -->
+    <footer>
+        <p>&copy; 2023 あなたの名前</p>
+    </footer>
+</body>
 </html>
