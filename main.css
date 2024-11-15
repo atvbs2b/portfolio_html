@@ -26,12 +26,12 @@ body {
 
 /*マスキングテープ風*/
 .box5-5{
-	background-color: #F6EEEC;/*ボックス背景色*/
+	background-color: #DAE2E5;/*ボックス背景色*/
 	padding:2.5em 2em 2em;/*ボックス内側余白*/
 	position:relative;/*配置(ここを基準に)*/
 }
 .box5-5 .box-title {
-	background-image: repeating-linear-gradient(-45deg,#F6EEEC 0, #F6EEEC 3px,#fafafa 3px,#fafafa 6px);/*ストライプ*/
+	background-image: repeating-linear-gradient(-45deg,#DAE2E5 0, ##DAE2E5 3px,#fafafa 3px,#fafafa 6px);/*ストライプ*/
 	border-left: 2px dotted rgba(0,0,0,.1);/* ギザギザ左*/
 	border-right: 2px dotted rgba(0,0,0,.1);/* ギザギザ右*/
 	transform: rotate(-2deg);/*テープの傾き*/
@@ -134,7 +134,7 @@ ul li {
 
 .skill i {
   font-size: 3em; /* アイコンのサイズ */
-  color: #ff69b4; /* ホットピンク */
+  color: #546578;
   margin-bottom: 10px; /* アイコンとテキストの間のマージン */
 }
 
@@ -144,4 +144,4 @@ ul li {
 }
 
 .stars {
-  color: #ff69b4; /*
+  color: #546578; /*
