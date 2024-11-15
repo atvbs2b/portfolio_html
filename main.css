@@ -24,31 +24,23 @@ body {
   background-color: #F5EBC5;
 }
 
-.heading-21 {
+.heading-9 {
   position: relative;
-  padding: .5em .7em .4em;
-  border-bottom: 3px solid #546578;
+  padding: .5em .7em;
+  border-radius: 10px;
+  background-color: #dae2e5;
   color: #454545;
 }
 
-.heading-21::before,
-.heading-21::after {
-  position: absolute;
-  left: 30px;
-  bottom: -15px;
-  width: 30px;
-  height: 15px;
-  clip-path: polygon(0 0, 100% 0, 50% 100%);
+.heading-9::after {
   content: '';
-}
-
-.heading-21::before {
-  background-color: #546578;
-}
-
-.heading-21::after {
-  bottom: -11px;
-  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 30px;
+  width: 0;
+  height: 0;
+  border: 11px solid transparent;
+  border-top: 11px solid #dae2e5;
 }
 
 
