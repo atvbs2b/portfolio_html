@@ -96,3 +96,30 @@ ul li {
   margin: 0;
   text-indent: 0.5em;
 }
+
+.skills {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.skill-icons {
+  display: flex;
+  flex-wrap: wrap; /* アイコンが横に並びきれないときに折り返す */
+  justify-content: center; /* 中央寄せ */
+}
+
+.skill {
+  margin: 10px 20px; /* 各アイコン間のマージン */
+  text-align: center;
+}
+
+.skill i {
+  font-size: 3em; /* アイコンのサイズ */
+  color: #ff69b4; /* ホットピンク */
+  margin-bottom: 10px; /* アイコンとテキストの間のマージン */
+}
+
+.skill p {
+  font-size: 1.2em; /* スキル名のフォントサイズ */
+  color: #555; /* テキストカラー */
+}
