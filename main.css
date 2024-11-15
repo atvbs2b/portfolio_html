@@ -24,6 +24,32 @@ body {
   background-color: #F5EBC5;
 }
 
+.heading-21 {
+  position: relative;
+  padding: .5em .7em .4em;
+  border-bottom: 3px solid #546578;
+  color: #454545;
+}
+
+.heading-21::before,
+.heading-21::after {
+  position: absolute;
+  left: 30px;
+  bottom: -15px;
+  width: 30px;
+  height: 15px;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  content: '';
+}
+
+.heading-21::before {
+  background-color: #546578;
+}
+
+.heading-21::after {
+  bottom: -11px;
+  background-color: #fff;
+}
 
 
 /*マスキングテープ風*/
@@ -87,33 +113,6 @@ h2 {
   padding: 0 0 0 1.5em;
 }
 
-.ttl_balloon4 {
-  font-weight: bold;
-  border: 3px solid #4c9ac0;
-  padding: 0.5em 1em;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  position: relative;
-}
-.ttl_balloon4::before {
-  content: '';
-  background-color: #fff;
-  width: 20px;
-  height: 3px;
-  position: absolute;
-  left: 30px;
-  bottom: -3px;
-}
-.ttl_balloon4::after {
-  content: '';
-  background-color: #4c9ac0;
-  width: 20px;
-  height: 3px;
-  transform: rotate(50deg);
-  position: absolute;
-  left: 25px;
-  bottom: -10px;
-}
 
 
 
