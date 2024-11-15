@@ -25,7 +25,7 @@ body {
 }
 
 .heading-16 {
-  margin: 20px 0; /* 上下のマージンを調整（必要に応じて数値を変更） */
+  margin: 10px 0; /* 上下のマージンを調整（必要に応じて数値を変更） */
   display: flex;
   justify-content: center;
   align-items: center;
