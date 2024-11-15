@@ -187,5 +187,11 @@ ul li {
   color: #555; /* テキストカラー */
 }
 
+.skill-description {
+  margin-top: 10px; /* 説明文のマージン */
+  font-size: 0.9em; /* 説明文のフォントサイズ */
+  color: #555; /* 説明文の色 */
+}
+
 .stars {
   color: #546578; /*
