@@ -24,12 +24,29 @@ body {
   background-color: #F5EBC5;
 }
 
-.heading-9 {
-  position: relative;
-  padding: .5em .7em;
-  border-radius: 10px;
-  background-color: #dae2e5;
+.heading-16 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #454545;
+}
+
+.heading-16::before,
+.heading-16::after {
+  width: 3px;
+  height: 40px;
+  background-color: #546578;
+  content: '';
+}
+
+.heading-16::before {
+  transform: rotate(-35deg);
+  margin-right: 30px;
+}
+
+.heading-16::after {
+  transform: rotate(35deg);
+  margin-left: 30px;
 }
 
 .heading-9::after {
