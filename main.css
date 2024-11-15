@@ -25,6 +25,7 @@ body {
 }
 
 .heading-16 {
+  margin: 20px 0; /* 上下のマージンを調整（必要に応じて数値を変更） */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,17 +48,6 @@ body {
 .heading-16::after {
   transform: rotate(35deg);
   margin-left: 30px;
-}
-
-.heading-9::after {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 30px;
-  width: 0;
-  height: 0;
-  border: 11px solid transparent;
-  border-top: 11px solid #dae2e5;
 }
 
 
