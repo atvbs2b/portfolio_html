@@ -29,6 +29,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
   color: #454545;
 }
 
@@ -85,6 +88,9 @@ body {
   }
 
 h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
   position: relative;
   text-align: center;
   font-size: 280%;
