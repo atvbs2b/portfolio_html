@@ -24,6 +24,8 @@ body {
   background-color: #F5EBC5;
 }
 
+
+
 /*マスキングテープ風*/
 .box5-5{
 	background-color: #DAE2E5;/*ボックス背景色*/
@@ -69,6 +71,34 @@ h2 {
   letter-spacing: 0.05em;
   font-weight: normal;
   padding: 0 0 0 1.5em;
+}
+
+.ttl_balloon4 {
+  font-weight: bold;
+  border: 3px solid #4c9ac0;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.ttl_balloon4::before {
+  content: '';
+  background-color: #fff;
+  width: 20px;
+  height: 3px;
+  position: absolute;
+  left: 30px;
+  bottom: -3px;
+}
+.ttl_balloon4::after {
+  content: '';
+  background-color: #4c9ac0;
+  width: 20px;
+  height: 3px;
+  transform: rotate(50deg);
+  position: absolute;
+  left: 25px;
+  bottom: -10px;
 }
 
 
