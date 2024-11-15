@@ -45,6 +45,20 @@ body {
 	left: 20px; /*左からの距離*/
 }
 
+/***ストライプ背景***/
+.box11 {
+  border: none;
+  background: repeating-linear-gradient(-45deg, #DAE2E5, #DAE2E5 10px, #FFFFFF 10px, #FFFFFF 20px);
+  padding: 15px;
+  }
+
+.box11-inner {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  width: 94%;
+  padding: 10px;
+  }
+
 h1 {
   position: relative;
   text-align: center;
