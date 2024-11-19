@@ -7,6 +7,12 @@ html {
   color: #454545;
 }
 
+img.example1 {
+  width: 700px;
+  height: 400px;
+  text-align: center;
+  }
+
 body {
   text-align: center;
   color: var(--theme-color-1);
@@ -147,7 +153,7 @@ a {
 a:hover {
   color: white;
   background-color: var(--theme-color-1);
-  
+  border-radius: 4px;
   border-bottom: none;
 }
 
@@ -205,8 +211,3 @@ ul li {
     margin: 5px 0; /* 星と説明文のマージン */
 }
 
-img.example1 {
-  width: 700px;
-  height: 400px;
-  text-align: center;
-  }
