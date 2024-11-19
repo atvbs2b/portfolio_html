@@ -204,3 +204,8 @@ ul li {
     color: #546578; /* 星の色 */
     margin: 5px 0; /* 星と説明文のマージン */
 }
+
+img.example1 {
+  width: 96px;
+  height: 65px;
+  }
