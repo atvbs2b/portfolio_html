@@ -206,6 +206,7 @@ ul li {
 }
 
 img.example1 {
-  width: 96px;
-  height: 65px;
+  width: 200px;
+  height: 100px;
+  text-align: center;
   }
