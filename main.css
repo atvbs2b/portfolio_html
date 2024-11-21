@@ -13,6 +13,18 @@ img.example1 {
   text-align: center;
   }
 
+  img.example2 {
+  width: 616px;
+  height: 400px;
+  text-align: center;
+  }
+
+  img.example3 {
+  width: 700px;
+  height: 210px;
+  text-align: center;
+  }
+
 body {
   text-align: center;
   color: var(--theme-color-1);
