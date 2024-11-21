@@ -25,6 +25,12 @@ img.example1 {
   text-align: center;
   }
 
+  img.example4 {
+    width: 554px;
+    height: 400px;
+    text-align: center;
+    }
+
 body {
   text-align: center;
   color: var(--theme-color-1);
